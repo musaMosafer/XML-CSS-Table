@@ -1,0 +1,28 @@
+/* common.css */
+* {
+	padding: 2px 4px;
+}
+/* start of min */
+ table, CATALOG {
+    display: table;
+}
+tr, CD {
+    display: table-row;
+}
+td, th, TITLE,
+ARTIST,COUNTRY,COMPANY,PRICE,
+ YEAR {
+    display: table-cell;
+}
+
+th, TITLE>THEAD, ARTIST>THEAD, COUNTRY>THEAD, COMPANY>THEAD, PRICE>THEAD,
+ YEAR>THEAD {
+    font-weight: bold;
+}
+
+
+
+
+
+
+
